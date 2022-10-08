@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main{
+
+            background-color: yellowgreen;
+            height: 10vh;
+            border: 2px solid black;
+        }
+        .child li{
+            display: inline-block;
+            border: 2px solid greenyellow;
+            margin-left: 15rem;
+            color: springgreen;
+            font-size: 1.5rem;
+            font-weight: bold;
+            border-radius: 10px;
+            padding: 10px;
+
+        }
+        .child li:hover{
+            color: red;
+            cursor: pointer;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <ol class="child">
+            <li> Home </li>
+            <li> Contact </li>
+            <li> Service </li>
+            <li> Address </li>
+        </ol>
+    </div>
+</body>
+</html>
